@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navs{
+    padding-top: 20px;
+    text-align: center;
+    display: inline;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+.nav{
+    font-family: 'Roboto Mono', monospace;
+    margin:10px 38px;
+    color: black;
+}
+.logo{
+    float: right;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+.nav:hover{
+    color: #4e4e4e;
+}
+.reg{
+    width: 40px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+    float: right;
+
+}
