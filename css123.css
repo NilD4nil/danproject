@@ -23,20 +23,52 @@ a{
     font-family: 'Roboto Mono', monospace;
     margin:10px 38px;
     color: black;
+    margin-top: 20px;
 }
 .logo{
+    width: 40px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 25px;
     float: right;
-    margin-top: 35px;
-    margin-left: 400px;
 }
 .nav:hover{
     color: #4e4e4e;
 }
-.reg{
-    width: 40px;
-    height: 30px;
+.besn{
+    text-align: center;
     margin-top: 20px;
+    margin-left: 400px;
+}
+.info {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-left: 140px;
+    margin-top: 75px;
+}
+.card{
+    margin-top: 70px;
+    margin-left: 140px;
+}
+.nnn:hover{
+    color: #4e4e4e;
+}
+.nnn{
+    color: black;
+    font-family: "Roboto Mono",monospace;
+
+}
+.let{
     font-size: 25px;
+}
+.bg{
     float: right;
+}
+.deals{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-left: 140px;
+    padding-top: 40px;
+}
+span{
+    font-family: "Roboto Mono",monospace;
 
 }
