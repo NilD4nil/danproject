@@ -9,7 +9,7 @@ a{
     text-decoration: none;
 }
 .header{
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
 }
 .navs{
@@ -40,7 +40,7 @@ a{
     margin-top: 20px;
     margin-left: 400px;
 }
-.info {
+.info_1 {
     font-family: 'Bai Jamjuree', sans-serif;
     margin-left: 140px;
     margin-top: 75px;
@@ -67,8 +67,26 @@ a{
     font-family: 'Bai Jamjuree', sans-serif;
     margin-left: 140px;
     padding-top: 40px;
+    display: flex;
 }
 span{
     font-family: "Roboto Mono",monospace;
-
+    color: grey;
+}
+.text{
+    display: inline-block;
+}
+.blue img{
+    padding-top: 60px;
+    width: 100%;
+}
+.mast{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-left: 140px;
+    padding-top: 40px;
+}
+.test{
+    font-family: "Roboto Mono",monospace;
+    color: grey;
+    margin-left: 140px;
 }
