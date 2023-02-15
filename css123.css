@@ -69,24 +69,58 @@ a{
     padding-top: 40px;
     display: flex;
 }
+.info{
+    padding-left: 100px;
+}
 span{
     font-family: "Roboto Mono",monospace;
     color: grey;
 }
 .text{
     display: inline-block;
-}
-.blue img{
-    padding-top: 60px;
-    width: 100%;
+    padding-left: 150px;
 }
 .mast{
     font-family: 'Bai Jamjuree', sans-serif;
-    margin-left: 140px;
-    padding-top: 40px;
+    width: max-content;
+    height: max-content;
+}
+.blue{
+    background-color: #c7eaff;
+    height: 417px;
+    margin-top: 100px;
+}
+.grid{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    height: max-content;
+    grid-column-gap: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .test{
     font-family: "Roboto Mono",monospace;
     color: grey;
-    margin-left: 140px;
+    width: max-content;
+    height: max-content;
+}
+.mast_1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: max-content;
+    height: max-content;
+
+}
+.test_1{
+    font-family: "Roboto Mono",monospace;
+    color: grey;
+    width: max-content;
+    height: max-content;
+}
+.customer{
+    font-size: 40px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
 }
