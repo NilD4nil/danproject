@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto+Mono & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 *{
 margin: 0;
 padding: 0;
@@ -123,4 +124,40 @@ span{
     font-size: 40px;
     font-family: 'Bai Jamjuree', sans-serif;
     text-align: center;
+    padding-top: 80px;
+}
+.descript{
+    font-size: 25px;
+    color: grey;
+    font-family: "Roboto Mono",monospace;
+}
+.none{
+    display: inline-block;
+    height: max-content;
+    padding: 25px 30px;
+    width: 25%;
+    background: #fff;
+}
+h3{
+    font-family: "Roboto Mono",monospace;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.grider{
+    width: 100%;
+    height: max-content;
+    padding: 1px 0;
+    background: linear-gradient(90deg, #808080, rgba(128, 128, 128, 0.01));
+}
+.prod{
+    font-family: 'Inter', sans-serif;
+    color: grey;
+    text-align: center;
+}
+.none:not(:last-child){
+    margin-right: 1px;
+}
+.marks{
+    display: flex;
+    justify-content: space-between;
 }
